@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/my-react-portfolio/static/css/main.1e220be4.css",
+    "main.js": "/my-react-portfolio/static/js/main.274dfacd.js",
+    "static/media/hoger-shoresh.pdf": "/my-react-portfolio/static/media/hoger-shoresh.e2c53f87f9bab59c8913.pdf",
+    "static/media/me.png": "/my-react-portfolio/static/media/me.6dab1445997c464bd56b.png",
+    "index.html": "/my-react-portfolio/index.html",
+    "main.1e220be4.css.map": "/my-react-portfolio/static/css/main.1e220be4.css.map",
+    "main.274dfacd.js.map": "/my-react-portfolio/static/js/main.274dfacd.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1e220be4.css",
+    "static/js/main.274dfacd.js"
+  ]
+}
