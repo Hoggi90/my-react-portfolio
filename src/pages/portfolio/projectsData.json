@@ -6,8 +6,7 @@
     "technologies": "Moment.js | jQuery | CSS",
     "github": "https://github.com/Hoggi90/Work-Day-Scheduler.git",
     "deployed": "https://hoggi90.github.io/Work-Day-Scheduler/",
-    "bgcolor": "#17252a",
-    "id": "1"
+    "bgcolor": "#17252a"
   },
   {
     "title": "Weather Dashboard",
@@ -16,8 +15,7 @@
     "description": " This weather dashboard utilizes the OpenWeatherMap API to obtain comprehensive weather information such as the city's name, date, weather icon, temperature, humidity, and wind speed. It includes a search history and a 5-day forecast, allowing for easy access to previous searches. It dynamically creates the cards using jquery and fetch method to obtain data from the OpenWeather API.",
     "github": "https://github.com/Hoggi90/Weather-Dashboard.git",
     "deployed": "https://hoggi90.github.io/Weather-Dashboard/",
-    "bgcolor": "#17252a",
-    "id": "2"
+    "bgcolor": "#17252a"
   },
   {
     "title": "Team Profile Generator",
@@ -26,8 +24,7 @@
     "description": "This app involved me building an command-line app using Node.js to generate a HTML page that renders a number of cards with employee information depending on the answers I provide in the command-line questions",
     "github": "https://github.com/hoggi90",
     "deployed": "https://www.youtube.com/watch?v=wE7ELFSHN00",
-    "bgcolor": "#17252a",
-    "id": "3"
+    "bgcolor": "#17252a"
   },
   {
     "title": "Coding Quiz App",
@@ -36,8 +33,7 @@
     "description": "This is a quiz app built with 5 questions about the fundamentals of javascipt. There is a 30 second timer with 5 seconds deducted everytime an incorrect answer is chosen. The highscore can be recorded and stored in localstorage",
     "github": "https://github.com/Hoggi90/Code-Quiz.git",
     "deployed": "https://hoggi90.github.io/Code-Quiz/",
-    "bgcolor": "#17252a",
-    "id": "4"
+    "bgcolor": "#17252a"
   },
   {
     "title": "My Fridge App",
@@ -46,8 +42,7 @@
     "technologies": "Bootstrap| HTML | CSS | Javascript",
     "github": "https://github.com/AqeelMGarner/MyFridge.git",
     "deployed": "https://aqeelmgarner.github.io/MyFridge/",
-    "bgcolor": "#17252a",
-    "id": "1"
+    "bgcolor": "#17252a"
   },
   {
     "title": "Professional Readme Generator",
@@ -56,7 +51,6 @@
     "description": "Havaing a readme file is an important part of coding, and in this command-lin app built with node.js and javascript, I was able to generate and render a professional readme file using a template after answering a series of questions.",
     "github": "https://github.com/hoggi90",
     "deployed": "https://https://www.youtube.com/watch?v=dy-hGbkfCis",
-    "bgcolor": "#17252a",
-    "id": "6"
+    "bgcolor": "#17252a"
   }
 ]

@@ -7,7 +7,6 @@ const Portfolio = () => {
     projectData.map((project, i) => (
       <Project
         key={i}
-        id={project.id}
         title={project.title}
         technologies={project.technologies}
         image={project.image}
