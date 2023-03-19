@@ -1,12 +1,10 @@
-/* --- MOBILE STYLES --- */
-
 .portfolio {
   display: flex;
   flex-direction: column;
   align-items: center;
   overflow: hidden;
-  margin-top: var(--spacing);
-  padding-bottom: var(--spacing);
+  margin-top: 50px;
+  padding-bottom: 50px;
 }
 
 .projectCard {
@@ -17,7 +15,6 @@
   position: relative;
   flex-direction: column;
   padding: 0 !important;
-  cursor: pointer;
 }
 
 .projectCard .textWrap {
@@ -97,18 +94,17 @@
   margin-bottom: 10px;
 }
 
-/* --- MEDIA QUEIRES --- */
 
 @media (min-width: 750px) {
   .projectCard {
     flex-direction: row;
-    padding: var(--sm-spacing) !important;
+    padding: 30px !important;
     height: 350px;
   }
 
   .portfolio {
-    padding-left: var(--spacing);
-    padding-right: var(--spacing);
+    padding-left: 50px;
+    padding-right: 50px;
   }
 
   .imageContainer {

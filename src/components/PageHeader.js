@@ -1,6 +1,5 @@
-const PageHeader = ({ title, description }) => (
+const PageHeader = ({ title }) => (
   <>
-    <p className="pageDescription">{description}</p>
     <h3 className="pageTitle">{title}</h3>
   </>
 );

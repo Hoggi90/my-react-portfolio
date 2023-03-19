@@ -1,16 +1,16 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import Landing from "../pages/landing/Landing";
+import Homepage from "../pages/homepage/homepage";
 import About from "../pages/about/About";
-import Portfolio from "../pages/portfolio/Portfolio";
+import Portfolio from "../pages/portfolio/portfolio";
 import Contact from "../pages/contact/Contact";
 
-const AnimatedRoutes = ({ personalDetails }) => {
+const Router = ({ personalDetails }) => {
   const location = useLocation();
 
   return (
     <Routes location={location} key={location.pathname}>
       <Route path="/" element={
-        <Landing
+        <Homepage
           name={personalDetails.name}
           tagline={personalDetails.tagline} />} />
       <Route path="/about" element={
@@ -36,4 +36,4 @@ const AnimatedRoutes = ({ personalDetails }) => {
   );
 };
 
-export default AnimatedRoutes;
+export default Router;

@@ -1,16 +1,16 @@
 import aboutMeImg from "../images/me.png";
-import SocialIcons from "../components/SocialIcons";
+import Socials from "../components/Socials";
 import { useState } from "react";
-import resume from "../pages/about/hoger-shoresh.pdf";
+import CV from "../pages/about/hoger-shoresh-CV.pdf";
 
-const AboutMe = ({ name, email, location, availability, brand }) => {
+const AboutMe = ({ name, email, location, brand }) => {
   const [downloading, setDownloading] = useState(false);
 
   const handleDownload = () => {
     setDownloading(true);
     const link = document.createElement("a");
-    link.href = resume;
-    link.download = "Hoger-Shoresh-Resume.pdf";
+    link.href = CV;
+    link.download = "Hoger-Shoresh-CV.pdf";
     link.onload = () => {
       link.remove();
       setDownloading(false);
@@ -48,17 +48,14 @@ const AboutMe = ({ name, email, location, availability, brand }) => {
                   <span>Location:</span>
                   <p>{location}</p>
                 </div>
-                <div className="col-12 col-md-6 info">
-                  <span>Availability:</span>
-                  <p>{availability}</p>
-                </div>
+
               </div>
             </div>
             <div className="buttonContainer">
               <button className="btn downloadCV" onClick={handleDownload} disabled={downloading}>
-                {downloading ? "Downloading..." : "Download Resume"}
+                {downloading ? "Downloading..." : "Download CV"}
               </button>{" "}
-              <SocialIcons />
+              <Socials />
             </div>
           </div>
         </div>

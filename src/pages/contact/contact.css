@@ -2,8 +2,6 @@
   margin-left: 100px;
 }
 
-/* --- MOBILE STYLES --- */
-
 .contact {
   display: flex;
   flex-direction: column;
@@ -14,14 +12,14 @@
 
 
 .contentTitle {
-  color: var(--text-color);
+  color: #feffff;
   padding-bottom: 10px;
 }
 
 .contactInfo {
   font-size: 12px;
-  color: var(--secondary-text-color);
-  margin-bottom: var(--sm-spacing);
+  color: #def2f1;
+  margin-bottom: 30px;
   margin-left: 10px;
 }
 
@@ -34,7 +32,7 @@
 }
 
 .infoDescription {
-  margin-bottom: var(--sm-spacing);
+  margin-bottom: 30px;
 }
 
 .personalContactInfo {
@@ -46,92 +44,49 @@ ul {
   list-style: none;
 }
 
-.mediaWrap {
-  border-left: 2px solid var(--grey);
-  padding-left: var(--sm-spacing);
+.infoWrap {
+  border-left: 2px solid #def2f1;
+  padding-left: 30px;
   padding-top: 12px;
   padding-bottom: 12px;
 }
 
-.formGroup {
-  padding-right: 15px;
-}
-
-.formControl {
-  font-size: 15px;
-  width: 100%;
-  padding: 10px 10px;
-  border: none;
-  background-color: #161616;
-  margin-bottom: 20px;
-  border-bottom: 1px solid var(--grey);
-  border-radius: 1px;
-  outline: transparent;
-  color: var(--grey);
-}
-
-.formControl:focus {
-  border-bottom: 1px solid var(--hl-color);
-}
 
 textarea {
-  resize: none;
   height: auto;
   font-family: "Poppins", sans-serif;
 }
 
 .icon {
-  color: var(--hl-color);
+  color: #17252a;
   font-size: 28px;
 }
 
 .infoIcon {
-  width: var(--spacing);
+  width: 50px;
   display: flex;
   align-items: center;
 }
 
 .infoType {
-  color: var(--text-color);
+  color: #feffff;
   font-size: 15px;
 }
 
 .infoValue a {
-  color: var(--hl-color);
+  color: #17252a;
 }
 
-.contactForm {
-  margin-bottom: var(--sm-spacing);
+.infoWrap a:hover {
+  color: white;
 }
+
+.contactInfo {
+  font-size: 15px;
+}
+
 
 .contact .socialIcons {
-  display: none;
-}
-
-.mediaWrap a:hover {
-  color: #03b979;
-}
-
-@media (min-width: 400px) {
-  .contactInfo {
-    font-size: 15px;
-  }
-}
-
-@media (min-width: 750px) {
-  .contact .socialIcons {
-    display: inline;
-    padding-bottom: var(--sm-spacing);
-  }
-
-  .contact .socialIcons::before,
-  .contact .socialIcons::after {
-    background-color: var(--grey);
-    content: "";
-    height: 2px;
-    width: var(--spacing);
-    display: inline-block;
-    margin-bottom: 7px;
-    margin-right: 10px;
-  }
+  display: inline;
+  padding-bottom: 30px;
 }

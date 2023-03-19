@@ -19,10 +19,10 @@ const Project = ({ technologies, title, image, color, github, deployed, descript
             <h3 className="projectTitle">{title}</h3>
             <p className="projectDescription">{description}</p>
             <div className="buttonsWrap">
-              <button className="btn" onClick={() => (window.location.href = github)}>
+              <button className="btn" onClick={() => window.open(github, '_blank')}>
                 Github Repo
               </button>
-              <button className="btn" onClick={() => (window.location.href = deployed)}>
+              <button className="btn" onClick={() => window.open(deployed, '_blank')}>
                 Deployed App
               </button>
             </div>

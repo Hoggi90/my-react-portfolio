@@ -1,10 +1,10 @@
-import NavLinks from "./NavLinks";
+import Navbar from "./Navbar";
 
 
 const Header = () => {
   return (
     <header className="header">
-      <NavLinks />
+      <Navbar />
     </header>
   );
 };

@@ -1,11 +1,11 @@
 import PageHeader from "../../components/PageHeader";
-import SocialIcons from "../../components/SocialIcons";
+import Socials from "../../components/Socials";
 import ContactInfo from "../../components/ContactInfo";
 
 const Contact = ({ name, email, location }) => {
   return (
     <section className="contact">
-      <PageHeader title="Contact" description="Get in touch" />
+      <PageHeader title="Contact" />
       <div className="contactWrap container">
         <div className="row">
           <div className="col-12">
@@ -13,7 +13,7 @@ const Contact = ({ name, email, location }) => {
           </div>
         </div>
       </div>
-      <SocialIcons />
+      <Socials />
     </section>
   );
 };

@@ -1,18 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;700&display=swap");
 
-/* --- VARIABLES --- */
-:root {
-  --bg-color: #3aafa9;
-  --hl-color: #17252a;
-  --text-color: #feffff;
-  --secondary-text-color: #def2f1;
-  --grey: #def2f1;
-  --spacing: 50px;
-  --sm-spacing: 30px;
-}
-
-/* --- RESETS --- */
-
 * {
   margin: 0;
   padding: 0;
@@ -23,47 +10,46 @@ html,
 body,
 #root {
   height: 100%;
-  background-color: var(--bg-color);
+  background-color: #3aafa9;
 }
 
 body {
   font-family: "Poppins", sans-serif;
 }
 
-/* --- GLOBAL STYLES --- */
-
 ::selection {
-  background-color: var(--hl-color);
-  color: var(--text-color);
+  background-color: #17252a;
+  color: #feffff;
 }
 
 .pageTitle {
-  color: var(--text-color);
+  color: #feffff;
   font-size: 36px;
-  border-bottom: 3px solid var(--hl-color);
-  margin-bottom: var(--spacing);
+  border-bottom: 3px solid #17252a;
+  margin-bottom: 50px;
 }
 
 .pageDescription {
-  color: var(--grey);
+  color: #def2f1;
+  ;
   font-size: 14px;
 }
 
 .socialIcons .icon {
-  color: var(--text-color);
+  color: #feffff;
 }
 
 .socialIcons .icon:hover {
   scale: 1.2;
-  color: var(--hl-color);
+  color: #17252a;
 }
 
 .btn {
   color: #f9f9f9;
-  background-color: var(--hl-color);
+  background-color: #17252a;
   border: none;
   font-size: 14px;
-  padding: 12px var(--sm-spacing);
+  padding: 12px 30px;
   border-radius: 20px;
   margin-top: 10px;
   cursor: pointer;
@@ -74,27 +60,20 @@ body {
   color: black;
 }
 
-/* --- MOBILE STYLES --- */
-
-/* --- HEADER ---  */
 header {
   padding: 30px;
-  color: var(--text-color);
+  color: #feffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 10px;
 }
 
-.logo {
-  height: 30px;
-}
-
 .links {
   display: flex;
   top: 93px;
   right: 0px;
-  background-color: var(--bg-color);
+  background-color: #3aafa9;
   width: 100%;
   padding: 10px;
   z-index: 999;
@@ -108,7 +87,7 @@ header {
 
 .links a {
   text-decoration: none;
-  color: var(--text-color);
+  color: #feffff;
   font-size: 15px;
   display: flex;
   justify-content: center;
@@ -147,11 +126,9 @@ header {
   background-color: transparent;
 }
 
-/* --- MEDIA QUERIES --- */
-
 header {
   padding: 30px;
-  color: var(--text-color);
+  color: #feffff;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -186,7 +163,7 @@ header {
   left: 0;
   width: 0;
   height: 1px;
-  background-color: var(--text-color);
+  background-color: #feffff;
   transition: width 0.3s ease-in-out;
 }
 
@@ -201,7 +178,7 @@ header {
   left: 0;
   width: 0;
   height: 1px;
-  background-color: var(--text-color);
+  background-color: #feffff;
   transition: width 0.3s ease-in-out;
   width: 100%;
 }
