@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/my-react-portfolio/static/css/main.f663aba4.css",
-    "main.js": "/my-react-portfolio/static/js/main.6452b030.js",
-    "static/media/hoger-shoresh-CV.pdf": "/my-react-portfolio/static/media/hoger-shoresh-CV.072f9fa876c4f2d96a8d.pdf",
+    "main.js": "/my-react-portfolio/static/js/main.fd56cf2d.js",
     "static/media/me.png": "/my-react-portfolio/static/media/me.6dab1445997c464bd56b.png",
+    "static/media/hoger-shoresh-CV.pdf": "/my-react-portfolio/static/media/hoger-shoresh-CV.a962382539c0441f9261.pdf",
     "index.html": "/my-react-portfolio/index.html",
     "main.f663aba4.css.map": "/my-react-portfolio/static/css/main.f663aba4.css.map",
-    "main.6452b030.js.map": "/my-react-portfolio/static/js/main.6452b030.js.map"
+    "main.fd56cf2d.js.map": "/my-react-portfolio/static/js/main.fd56cf2d.js.map"
   },
   "entrypoints": [
     "static/css/main.f663aba4.css",
-    "static/js/main.6452b030.js"
+    "static/js/main.fd56cf2d.js"
   ]
 }
