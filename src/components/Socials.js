@@ -13,7 +13,7 @@ const Socials = () => {
       <a className="icon" style={styles.icon} href="https://github.com/hoggi90">
         <i className="fa-brands fa-github" aria-hidden="true" title="Hoger Shoresh's GitHub Profile"></i>
       </a>
-      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/hoggi/">
+      <a className="icon" style={styles.icon} href="https://www.linkedin.com/in/hoger-shoresh/">
         <i className="fa-brands fa-linkedin" aria-hidden="true" title="Hoger Shoresh's LinkedIn Profile"></i>
       </a>
     </div>
