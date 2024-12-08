@@ -1,7 +1,7 @@
 [
   {
     "title": "Work Schedule",
-    "image": "./projectImages/workschedule.png",
+    "image": "/projectImages/workschedule.png",
     "description": "This simple work day schedule allows the user to input an entry on a given timeslot of their day. Using moment.js I was able to show the current date and display timeblocks. Entries could be saved to localstorage as well as deleted. I did a bit of CSS styling to this app, but primarily built the page using jquery and javascript to dynamically build it.",
     "technologies": "Moment.js | jQuery | CSS",
     "github": "https://github.com/Hoggi90/Work-Day-Scheduler.git",
@@ -10,7 +10,7 @@
   },
   {
     "title": "Weather Dashboard",
-    "image": "./projectImages/weatherapp.png",
+    "image": "/projectImages/weatherapp.png",
     "technologies": "jQuery | HTML | CSS",
     "description": " This weather dashboard utilizes the OpenWeatherMap API to obtain comprehensive weather information such as the city's name, date, weather icon, temperature, humidity, and wind speed. It includes a search history and a 5-day forecast, allowing for easy access to previous searches. It dynamically creates the cards using jquery and fetch method to obtain data from the OpenWeather API.",
     "github": "https://github.com/Hoggi90/Weather-Dashboard.git",
@@ -19,7 +19,7 @@
   },
   {
     "title": "Team Profile Generator",
-    "image": "./projectImages/teamgenerator.png",
+    "image": "/projectImages/teamgenerator.png",
     "technologies": "HTML | Node | Bootstrap | Javascript",
     "description": "This app involved me building an command-line app using Node.js to generate a HTML page that renders a number of cards with employee information depending on the answers I provide in the command-line questions",
     "github": "https://github.com/hoggi90",
@@ -28,7 +28,7 @@
   },
   {
     "title": "Coding Quiz App",
-    "image": "./projectImages/quizapp.png",
+    "image": "/projectImages/quizapp.png",
     "technologies": "Javascript | HTML | CSS",
     "description": "This is a quiz app built with 5 questions about the fundamentals of javascipt. There is a 30 second timer with 5 seconds deducted everytime an incorrect answer is chosen. The highscore can be recorded and stored in localstorage",
     "github": "https://github.com/Hoggi90/Code-Quiz.git",
@@ -37,7 +37,7 @@
   },
   {
     "title": "My Fridge App",
-    "image": "./projectImages/myfridgeapp.png",
+    "image": "/projectImages/myfridgeapp.png",
     "description": "This project involved me working in a team to build a app that was able to render the page components from javascript dynamically as well as obtain data from at least 2 APIs. In this particular app, we used two APIs, CalorieNinja & Edamame to obtain recipe and nutritional data.",
     "technologies": "Bootstrap| HTML | CSS | Javascript",
     "github": "https://github.com/AqeelMGarner/MyFridge.git",
@@ -46,7 +46,7 @@
   },
   {
     "title": "Professional Readme Generator",
-    "image": "./projectImages/readmegen.png",
+    "image": "/projectImages/readmegen.png",
     "technologies": "Node.js | Javascript",
     "description": "Havaing a readme file is an important part of coding, and in this command-lin app built with node.js and javascript, I was able to generate and render a professional readme file using a template after answering a series of questions.",
     "github": "https://github.com/hoggi90",
