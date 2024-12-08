@@ -6,7 +6,7 @@ const Homepage = ({ tagline }) => {
   return (
     <section className="homepage">
       <div className="textContainer">
-        <h1 className="name">Hi, I'm Hoggi!</h1>
+        <h1 className="name">Hi, I'm Hoger!</h1>
         <p className="description">{tagline}</p>
       </div>
       <div className="image-container">
