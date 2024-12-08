@@ -52,5 +52,32 @@
     "github": "https://github.com/hoggi90",
     "deployed": "https://www.youtube.com/watch?v=dy-hGbkfCis",
     "bgcolor": "#17252a"
+  },
+  {
+    "title": "My Fridge App",
+    "image": "/projectImages/myfridgeapp.png",
+    "description": "This project involved me working in a team to build a app that was able to render the page components from javascript dynamically as well as obtain data from at least 2 APIs. In this particular app, we used two APIs, CalorieNinja & Edamame to obtain recipe and nutritional data.",
+    "technologies": "Bootstrap| HTML | CSS | Javascript",
+    "github": "https://github.com/AqeelMGarner/MyFridge.git",
+    "deployed": "https://aqeelmgarner.github.io/MyFridge/",
+    "bgcolor": "#17252a"
+  },
+  {
+    "title": "My CGM Project",
+    "image": "/projectImages/myfridgeapp.png",
+    "description": "This project involved me working in a team to build a app that was able to render the page components from javascript dynamically as well as obtain data from at least 2 APIs. In this particular app, we used two APIs, CalorieNinja & Edamame to obtain recipe and nutritional data.",
+    "technologies": "Bootstrap| HTML | CSS | Javascript",
+    "github": "https://github.com/AqeelMGarner/MyFridge.git",
+    "deployed": "https://aqeelmgarner.github.io/MyFridge/",
+    "bgcolor": "#17252a"
+  },
+  {
+    "title": "Code 'n' Coffee",
+    "image": "/projectImages/myfridgeapp.png",
+    "description": "This project involved me working in a team to build a app that was able to render the page components from javascript dynamically as well as obtain data from at least 2 APIs. In this particular app, we used two APIs, CalorieNinja & Edamame to obtain recipe and nutritional data.",
+    "technologies": "Bootstrap| HTML | CSS | Javascript",
+    "github": "https://github.com/AqeelMGarner/MyFridge.git",
+    "deployed": "https://aqeelmgarner.github.io/MyFridge/",
+    "bgcolor": "#17252a"
   }
 ]
