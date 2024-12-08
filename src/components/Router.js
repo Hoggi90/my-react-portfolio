@@ -1,7 +1,7 @@
 import { Routes, Route, useLocation } from "react-router-dom";
 import Homepage from "../pages/homepage/homepage";
 import About from "../pages/about/About";
-import Portfolio from "../pages/portfolio/portfolio";
+import Portfolio from "../pages/portfolio/Portfolio";
 import Contact from "../pages/contact/Contact";
 
 const Router = ({ personalDetails }) => {
