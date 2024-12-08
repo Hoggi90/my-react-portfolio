@@ -21,13 +21,13 @@ jobs:
           node-version: '18'  # Pin to Node.js version compatible with your project
           cache: 'npm'        # Enable npm caching for dependencies
 
-      # Step 3: Clear npm cache to avoid stale/corrupted dependencies
-      - name: Clear npm cache
-        run: npm cache clean --force
-
-      # Step 4: Set npm registry to ensure it's using the correct one
+      # Step 3: Set npm registry to ensure it's using the correct one
       - name: Set npm registry
         run: npm config set registry https://registry.npmjs.org/
+
+      # Step 4: Clear npm cache to avoid stale/corrupted dependencies
+      - name: Clear npm cache
+        run: npm cache clean --force
 
       # Step 5: Install dependencies
       - name: Install dependencies
