@@ -19,7 +19,7 @@ const Portfolio = () => {
 
   return (
     <section className="portfolio">
-      <PageHeader title="Portfolio" />
+      <PageHeader title="Portfolio!" />
       <div className="row">
         <ProjectList />
       </div>
