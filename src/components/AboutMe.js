@@ -24,8 +24,8 @@ const AboutMe = ({ name, email, location, brand }) => {
       <div className="row">
         <div className="personalInfo col-12 col-lg-8">
           <div className="contentContainer">
-            <h4>Let's work together!</h4>
-            <h5>I'm a frontend developer, excited to code with you!</h5>
+              <h4>Let's work together!</h4>
+              <h5>I'm a Cloud Engineer, excited to collaborate and innovate with you!</h5>
             <div className="contentDescription">
               <p>{brand}</p>
             </div>
