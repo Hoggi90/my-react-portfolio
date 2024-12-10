@@ -64,7 +64,7 @@
   },
   {
     "title": "CGM Project",
-    "image": "/projectImages/cgmproject.png",
+    "image": "/projectImages/myfridgeapp.png",
     "description": "I created a personal website using HTML and CSS, deployed on AWS S3. I automated the deployment with a CI/CD pipeline using GitHub Actions and integrated AWS Lambda to test the deployment’s integrity, ensuring only the latest files are live on S3. A great hands-on project in automation and serverless architecture!",
     "technologies": "HTML | CSS | AWS S3 | AWS LAMBDA ",
     "github": "https://github.com/Hoggi90/CGM-Project.git",
