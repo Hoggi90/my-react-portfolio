@@ -79,5 +79,14 @@
     "github": "https://github.com/Hoggi90/Code-n-Coffee.git",
     "deployed": "https://www.youtube.com/watch?v=dy-hGbkfCis",
     "bgcolor": "#17252a"
+  },
+  {
+    "title": "Code 'n' Coffee",
+    "image": "/projectImages/myfridgeapp.png",
+    "description": "I worked on a group project to create an interactive Python CLI coffee store. Users can interact with prompts and choose from various options. The app saves their selections and displays their final order at the end. It was a fun project that helped me hone my skills in Python and collaborative development!",
+    "technologies": "GitHub | Git | Python",
+    "github": "https://github.com/Hoggi90/Code-n-Coffee.git",
+    "deployed": "https://www.youtube.com/watch?v=dy-hGbkfCis",
+    "bgcolor": "#17252a"
   }
 ]
