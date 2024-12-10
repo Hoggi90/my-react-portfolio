@@ -26,7 +26,7 @@ To run the project locally:
 
 ## Usage
 You can view the live project via the following link:  
-[React Portfolio](hoger-shoresh.s3-website.eu-west-2.amazonaws.com)
+[React Portfolio](http://hoger-shoresh.s3-website.eu-west-2.amazonaws.com)
 
 ## Deployment
 The project is deployed on AWS S3 using a CI/CD pipeline. The pipeline includes the following steps:
