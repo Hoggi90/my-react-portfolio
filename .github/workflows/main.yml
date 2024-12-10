@@ -33,15 +33,19 @@ jobs:
       - name: Install dependencies
         run: npm install
 
-      # Step 6: Audit and fix npm dependencies (Optional, but recommended)
+      # Step 6: Run tests
+      - name: Run tests
+        run: npm test -- --watchAll=false  # Run tests without watching files
+
+      # Step 7: Audit and fix npm dependencies (Optional, but recommended)
       - name: Audit and fix dependencies
         run: npm audit fix || true
 
-      # Step 7: Build the React app
+      # Step 8: Build the React app
       - name: Build the React app
         run: npm run build
 
-      # Step 8: Upload build folder to S3 using AWS CLI
+      # Step 9: Upload build folder to S3 using AWS CLI
       - name: Upload build folder to S3
         run: aws s3 cp ./build/ s3://${{ secrets.AWS_S3_BUCKET }} --recursive --acl public-read
         env:
