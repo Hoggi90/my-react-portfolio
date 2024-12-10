@@ -63,21 +63,21 @@
     "bgcolor": "#17252a"
   },
   {
-    "title": "My CGM Project",
-    "image": "/projectImages/myfridgeapp.png",
-    "description": "This project involved me working in a team to build a app that was able to render the page components from javascript dynamically as well as obtain data from at least 2 APIs. In this particular app, we used two APIs, CalorieNinja & Edamame to obtain recipe and nutritional data.",
-    "technologies": "Bootstrap| HTML | CSS | Javascript",
-    "github": "https://github.com/AqeelMGarner/MyFridge.git",
-    "deployed": "https://aqeelmgarner.github.io/MyFridge/",
+    "title": "CGM Project",
+    "image": "/projectImages/cgmproject.png",
+    "description": "I created a personal website using HTML and CSS, deployed on AWS S3. I automated the deployment with a CI/CD pipeline using GitHub Actions and integrated AWS Lambda to test the deployment’s integrity, ensuring only the latest files are live on S3. A great hands-on project in automation and serverless architecture!",
+    "technologies": "HTML | CSS | AWS S3 | AWS LAMBDA ",
+    "github": "https://github.com/Hoggi90/CGM-Project.git",
+    "deployed": "http://cgm-bucket-project.s3-website.eu-west-2.amazonaws.com/",
     "bgcolor": "#17252a"
   },
   {
     "title": "Code 'n' Coffee",
-    "image": "/projectImages/myfridgeapp.png",
-    "description": "This project involved me working in a team to build a app that was able to render the page components from javascript dynamically as well as obtain data from at least 2 APIs. In this particular app, we used two APIs, CalorieNinja & Edamame to obtain recipe and nutritional data.",
-    "technologies": "Bootstrap| HTML | CSS | Javascript",
-    "github": "https://github.com/AqeelMGarner/MyFridge.git",
-    "deployed": "https://aqeelmgarner.github.io/MyFridge/",
+    "image": "/projectImages/codencoffee.png",
+    "description": "I worked on a group project to create an interactive Python CLI coffee store. Users can interact with prompts and choose from various options. The app saves their selections and displays their final order at the end. It was a fun project that helped me hone my skills in Python and collaborative development!",
+    "technologies": "GitHub | Git | Python",
+    "github": "https://github.com/Hoggi90/Code-n-Coffee.git",
+    "deployed": "https://www.youtube.com/watch?v=dy-hGbkfCis",
     "bgcolor": "#17252a"
   }
 ]
